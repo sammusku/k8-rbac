@@ -1,0 +1,9 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+ name: roboshop-admin
+ namespace: roboshop
+rules:
+ - apiGroups: ["*"] #indiactes the core API group
+   resources: ["*"]   #onl access for pods
+   verbs: ["*"]
