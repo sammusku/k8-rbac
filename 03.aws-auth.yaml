@@ -9,12 +9,12 @@ data:
   mapUsers: |
     - groups:
       - roboshop-trainee
-      userarn: arn:aws:iam:211116633177:user/suresh
+      userarn: arn:aws:iam::211116633177:user/suresh
       username: suresh
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-04-16T15:56:01Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1240"
+  resourceVersion: "19025"
   uid: 9022dddc-c132-4c8d-a0b7-932bc91b4260
