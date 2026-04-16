@@ -1,0 +1,9 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+ name: suresh
+ namespace: roboshop
+rules:
+ - apiGroups: [""]  #indiactes the core API group
+   resources: ["pods"]   #onl access for pods
+   verbs: ["get","List","watch"]
